@@ -1,0 +1,26 @@
+{
+  "name": "contest_manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supriyanta/contest_manager.git"
+  },
+  "author": "supriyanta34@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supriyanta/contest_manager/issues"
+  },
+  "homepage": "https://github.com/supriyanta/contest_manager#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cron": "^1.7.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "redis": "^2.8.0"
+  }
+}
