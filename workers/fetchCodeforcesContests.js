@@ -14,7 +14,7 @@ const fetchCodeforcesContests = async () => {
 	contests = contests.filter(contest => contest.phase === "BEFORE");
 	console.log(`extracted ${contests.length} contests`);
 
-	// await setAsync("codeforces", JSON.stringify(contests));
+	await setAsync("codeforces", JSON.stringify(contests));
 };
 
 // fetchCodeforcesContests();
